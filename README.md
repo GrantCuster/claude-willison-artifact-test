@@ -1,13 +1,6 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # claude-willison-artifact-test
+
+Attempt to get Claude artifact https://gist.github.com/simonw/76ef926312093333b48093da6def59fc running locally.
 
 Created basically using the guide on https://ui.shadcn.com/docs/installation/vite
 
@@ -20,3 +13,12 @@ I also needed to clear out `index.css` and replace it with the `@tailwind` prope
 I set it up as a tsx project event though the Claude generated code is `jsx`. So to build I had to remove the tsx checks. Possibly I could also relabel to `App.tsx` to`App.jsx` but I think I'd need to configure some other settings.
 
 The styles are also not quite right, could have to do with the shadcn theme.
+
+## Vite template info: React + TypeScript + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
