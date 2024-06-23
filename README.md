@@ -11,6 +11,8 @@ Currently, two official plugins are available:
 
 Created basically using the guide on https://ui.shadcn.com/docs/installation/vite
 
+I needed to install the shadcn components (slider, button, card) using shadcn commands.
+
 Except I needed to move the shadcn components from top level `@` folder where they were installed by default into the `src` folder. Probably a config setting on initializing shadcn could have fixed this.
 
 I also needed to clear out `index.css` and replace it with the `@tailwind` properties from https://tailwindcss.com/docs/guides/vite to get tailwindcss running.
